@@ -1,0 +1,44 @@
+body {
+    background-image: url('../img/uk.jpg'); 
+    color: white; 
+    background-size: cover;
+}
+
+ul {
+    text-align: center;
+    padding-top: 10px;
+    
+}
+ul li {
+    display: inline;
+    margin: 50px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: aquamarine;
+        
+}
+nav.mobile-view {
+    display: none
+}
+@media (max-width:500px){
+    nav.desktop-view {
+        display: none;}
+    nav.mobile-view {
+        display: block;
+        margin: 10px;
+        
+    }
+    .social {
+        height: 20px;
+        float: right;
+        margin: 10px;
+        
+    }
+    #hamburger {
+        
+        float: left;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <nav class="img">
+        <img src="https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/Screenshot%202015-11-09%2014.28.25.png">
+    </nav>
+  <h1>Travel form</h1>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <span id="first"> fist name : </span><input type="text" name="firstname">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <span id="last">  last name:</span> <input type="text" name="lastname">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <span id="age">  age: </span> <input class="age" type="number" name="age">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <span id="gender">Gender:  </span>
+                    <br/>
+                    <input type="radio" name="gender" value="male" checked>
+                    <span> male</span><br>
+                    <input type="radio" name="gender" value="female"> <span>female</span><br>
+                    <input type="radio" name="gender" value="other"><span> other</span><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2"><span>Traveling to:</span>
+                    <select class="travel" name="travelingto">
+                                        <option value="USA">USA</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="Brazil">Brazil</option>
+                                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"><span>Dietary restrictions :</span>
+                    <input type="checkbox" name="dietary" value="kosher"><span>kosher</span>
+                    <input type="checkbox" name="dietary" value="vegetarian"><span>vegetarian</span>
+                    <input type="checkbox" name="dietary" value=" lactose free"><span>lactose free</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </form>
+    <button id="button">submit</button>
+    <script src="index.js"></script>
+</body>
+
+
+
+
+</html>

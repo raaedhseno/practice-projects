@@ -1,0 +1,28 @@
+body{
+    background: url(http://cdn.al-masdar.net/uploads/2014/05/186088062.jpg)
+ 
+}
+input{
+    background-color: beige;
+    margin-left: 10px;
+    border-radius: 20%;
+    margin-top: 5px;
+    padding-top: 5px
+}
+.age{
+    margin-left: 45px;
+}
+.travel{
+    background-color: beige;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+
+span{
+    font-size: 15px;
+    color: beige;
+}
+h1{
+    font-size: 50px;
+    padding-left: 30px;
+}
