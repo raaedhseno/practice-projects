@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio autoplay loop hidden>
+  <source src="Small-waves-sound-effect.mp3" type="audio/mpeg">   
+</audio>
+
+
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>
+                    <font color="#DC143C"> High score haven</font>
+                </h1>
+            </div>
+
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+
+                <input id="name" placeholder="Name" class="form-control">
+                <input id="game" placeholder="Game" class="form-control">
+                <input id="score" type="number" placeholder="Score" class="form-control">
+                <input id="date" type="date" class="form-control" class="form-control">
+            </div>
+        </div>
+
+
+        <center>
+            <label> 
+                       <font color = "#DC143C"> Trash Talk</font>
+         </label>
+            <input type="checkbox" id="check">
+
+
+
+            <button id="submit"><font color ="#0000CD">Submit</font></button>
+        </center>
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+                <table id="list" class=" table ">
+
+
+                    <tr>
+                        <th>
+                            <font color="#0000CD">#</font>
+                        </th>
+
+                        <th>
+                            <font color="#0000CD">name</font>
+                        </th>
+
+                        <th>
+                            <font color="#0000CD">game</font>
+                        </th>
+
+                        <th>
+                            <font color="#0000CD">score</font>
+                        </th>
+
+                        <th>
+                            <font color="#0000CD">date</font>
+                        </th>
+
+                        <th>
+                            <font color="#0000CD">Trash Talk</font>
+                        </th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
